@@ -6,7 +6,6 @@ USE bamazon;
 
 
 CREATE TABLE products (
---item_id INTEGER(11) AUTO_INCREMENT NOT NULL,
   itemID INTEGER(10) AUTO_INCREMENT NOT NULL,
   product_name VARCHAR(30) NOT NULL,
   department_name VARCHAR(20) NOT NULL,
@@ -27,5 +26,7 @@ CREATE TABLE products (
     ("HDMI Cable", "Cables", 60, 30),
     ("Network Cable", "Cables", 51, 25),
     ("Router", "Network", 980, 3);
+
+   
 
 

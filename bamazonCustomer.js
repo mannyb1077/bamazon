@@ -52,7 +52,7 @@ function stock(err, data){
     var quantity = input.quantity;
     var stock = data[0].stock;
     var sales = data[0].sales;
-    
+
     if (quantity > data[0].stock){
         console.log("Sorry, Product is out of Stock. Please check back in 30 days")
         connection.end();
@@ -69,7 +69,8 @@ function stock(err, data){
                     id: item
                 }
             ],
-            function orderPlaced(err, data),
+
+            function orderPlaced(err, data)
         )
     }
 }
